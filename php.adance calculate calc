@@ -1,0 +1,14 @@
+<?php
+function advancedCalculate($num, $operation) {
+    switch ($operation) {
+        case 'percentage':
+            return $num / 100;
+        case 'sqrt':
+            return sqrt($num);
+        case 'log':
+            return log($num);
+        default:
+            return "Invalid operation";
+    }
+}
+?>
